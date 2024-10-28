@@ -6,11 +6,12 @@ int main () {
     int num;
     cout << "Enter a Number...";
     cin >> num;
-    for (int i = 1; i <= num; i++){
+    char ch;
+    for (int i = 1; i <= num; i++) {
         for (int j = 1; j <= i; j++) {
-            cout << j;
+            ch = ('A' + i - 1);
+            cout << ch;
         }
         cout << endl;
     }
-    return 0;
 }
