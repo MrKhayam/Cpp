@@ -12,7 +12,7 @@ void printArray(int arr[], int n)
     cout << endl;
 }
 
-void swapInt(int arr[], int size)
+void swapAlternate(int arr[], int size)
 {
 
     for (int i = 0; i < size; i += 2)
@@ -28,6 +28,6 @@ int main()
 {
     int myArr[5] = {2, 3, 5, 6, 9};
 
-    swapInt(myArr, 5);
+    swapAlternate(myArr, 5);
     printArray(myArr, 5);
 }
