@@ -10,6 +10,7 @@ void printArray(int arr[], int n)
         cout << arr[i] << " ";
     }
     cout << endl;
+    
 }
 
 void swapAlternate(int arr[], int size)
@@ -31,3 +32,4 @@ int main()
     swapAlternate(myArr, 5);
     printArray(myArr, 5);
 }
+
