@@ -20,4 +20,5 @@ int main() {
 
     cout << "First Element is : " << a.front() << endl;
     cout << "Last Element is : " << a.back() << endl;
+    cout << "Is Array Empty: " << a.empty() << endl;
 }
