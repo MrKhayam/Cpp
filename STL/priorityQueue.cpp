@@ -24,4 +24,20 @@ int main () {
         maxi.pop();
     }
     cout << endl;
+
+    mini.push(5);
+    mini.push(3);
+    mini.push(6);
+    mini.push(8);
+    mini.push(1);
+
+    int m = mini.size();
+
+    for (int i = 0; i < m; i++) {
+        cout << mini.top() << " ";
+        mini.pop();
+    }
+    cout << endl;
+
+    cout << "Is Empty : " << mini.empty();
 }
