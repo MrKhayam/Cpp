@@ -1,29 +1,16 @@
 #include <iostream>
-#include <list>
+#include <stack>
 using namespace std;
 
 int main()
 {
-    list<int> a = {1, 2, 3, 4};
+    stack<string> a;
 
-    a.push_back(5);
-    a.push_front(0);
+    a.push("I ");
+    a.push("Am ");
+    a.push("Khayam ");
+    a.push("Ijaz ");
 
-    for (int i : a)
-    {
-        cout << i << " ";
-    }
 
-    cout << endl;
-
-    a.erase(a.begin());
-    cout << "After Erase " << endl;
-    for (int i : a)
-    {
-        cout << i << " ";
-    }
-
-    cout << endl;
-
-    cout << "Size of List : " << a.size() << endl;
+    cout << "Top Element : " ->
 }
