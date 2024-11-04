@@ -15,7 +15,12 @@ int main () {
         cout << i.first << " " << i.second << endl;
     }
 
+    cout << "Finding 1 -> " << m.count(1) << endl;
 
-    
-
+    m.erase(1);
+    cout << "After Erase" << endl;
+    for(auto i:m) {
+        cout << i.first << " " << i.second << endl;
+    }
+    cout << endl;
 }
