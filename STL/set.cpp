@@ -27,4 +27,7 @@ int main()
         cout << i << endl;
     }
     cout << endl;
+
+    cout << "5 is present or not " << a.count(5) << endl;
+    cout << "2 is present or not " << a.count(2) << endl;
 }
